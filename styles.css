@@ -605,67 +605,60 @@ footer {
     font-style: italic;
 }
 
-  @media (min-width: 319px) and (max-width: 480px) {
+@media (min-width: 319px) and (max-width: 480px) {
     body {
-      padding-top: 0px;
-      padding-left: 30px;
-      padding-right: 30px;
-      padding-bottom: 30px;
+        padding-top: 70px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
     }
 
     p {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .pink-space {
-        font-size: 10px;
+        font-size: 11px;
     }
-
+    
     .gray-space {
-        font-size: 10px;
+        font-size: 11px;
     }
 
+    .mood {
+        display: block;
+    }
+    
     .intro {
-        display: none;
+        display: flex;
+        flex-direction: column;
     }
-
+    
     .music {
         display: none;
     }
 
-    .team {
-        display: none;
+    .title {
+        font-size: 20px;
+    }
+    
+    .title2 {
+        font-size: 20px;
     }
 
-    .caption {
-        display: none;
+    .container {
+        display: block;
+    }
+
+    .typed-out {
+        font-size: 25px;
     }
 
     .omori {
-        display: none;
+        display: contents;
     }
 
     .dialogue-box {
-        display: none;
-    }
-    
-    .name {
-        display: none;
-    }
-    
-    .dialogue {
-        display: none;
-    }
-
-    .contact-grid {
-        display: none;
-    }
-
-    .room-box {
-        display: none;
-    }
-
-    .cat {
         display: none;
     }
 
@@ -673,68 +666,104 @@ footer {
         display: none;
     }
 
+    .contact-grid {
+        display: none;
+    }
+
+    .cat:hover, .laptop:hover, .headphones:hover, .book:hover, .girl:hover, .play:hover {
+        transform: scale(1);
+        opacity: 1;
+        cursor: default;
+    }
+
+    .cat {
+        height: 87.5px;
+        grid-column: 4;
+        grid-row: 5;
+    }
+    
+    .laptop {
+        height: 70px;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .headphones {
+        height: 56px;
+        grid-column: 4;
+        grid-row: 1;
+    }
+    
+    .book {
+        height: 70px;
+        grid-column: 4;
+        grid-row: 3;
+    }
+    
+    .girl {
+        height: 87.5px;
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .room-box {
+        height: 122.5px;
+        width: 175px;
+        margin-top: 20px;
+    }
+
     .flexbox {
         display: flex;
         flex-direction: column;
     }
-
+ 
     .text {
         flex: 1;
     }
-    
+   
     .images {
         flex: 2;
     }
-    
+   
     .gallery {
         padding-top: 30px;
         padding-left: 0px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        gap: 15px;
+        gap: 5px;
     }
-
+ 
     .pic1 {
-        width: 150px;
+        width: 130px;
         grid-column: 1;
         grid-row: 1;
     }
-
+ 
     .pic2 {
-        width: 150px;
+        width: 130px;
         grid-column: 2;
         grid-row: 1;
     }
-
+ 
     .pic3 {
-        width: 150px;
+        width: 130px;
         grid-column: 1;
         grid-row: 2;
     }
-
+ 
     .pic4 {
-        width: 150px;
+        width: 130px;
         grid-column: 2;
         grid-row: 2;
     }
 
-    .bar {
-        display: none;
-    }
-    
-    .flexy {
-        align-items: center;
-        margin-top: 40px;
-        margin-bottom: 20px;
+    .heading {
+        font-size: 14px;
     }
 
     .skills {
         display: none;
-    }
-
-    .skills2 {
-        font-size: 10px;
     }
 
     .skill-issue {
@@ -747,59 +776,56 @@ footer {
         justify-content: space-between;
         gap: 15px;
     }
-
+ 
     .rounded-box {
-        height: 240px;
+        height: 320px;
+        width: 280px;;
     }
-
+ 
     .rounded-box:hover {
         transform: scale(1);
         box-shadow: none;
     }
-
+ 
     .description1 {
-        font-size: 10px;
+        font-size: 11px;
     }
-    
+   
     .description2 {
-        font-size: 10px;
+        font-size: 11px;
     }
-
+ 
     .topic {
-        font-weight: 500;
-        font-size: 20px;
+        font-weight: bold;
+        font-size: 15px;
         margin-bottom: 8px;
         text-align: center;
-    }
-
-    .thin {
-        display: none;
     }
 
     .screen2 {
         display: none;
     }
-
+ 
     .screen3 ul {
         display: none;
     }
-
+ 
     .screen3 a img {
         height: 60px;
         margin-left: 5px;
     }
-    
+   
     .outer {
         height: 148px;
         width: 300px;
         background-color: #C1BAD9;
     }
-
+ 
     .center {
         height: 14px;
         width: 300px;
     }
-
+ 
     .inner {
         height: 116px;
         width: 195px;
@@ -807,11 +833,15 @@ footer {
         margin-left: 10px;
     }
 
+    .description2 .thin {
+        display: none;
+    }
+
     .controls1 {
         height: 86px;
         margin-right: -8px;
     }
-    
+   
     .controls2 {
         height: 86px;
         margin-left: -8px;
@@ -822,12 +852,12 @@ footer {
         margin-right: -4px;
         margin-left: -10px;
     }
-
+ 
     .ds-and-games {
         display: flex;
         flex-direction: column-reverse;
     }
-
+ 
     .game {
         border-radius: 10px;
         height: 63px;
@@ -837,7 +867,7 @@ footer {
         justify-content: space-around;
         margin-bottom: 20px;
     }
-
+ 
     .game-tag {
         display: flex;
         border-radius: 10px;
@@ -846,15 +876,358 @@ footer {
         margin-top: 7px;
         margin-bottom: -5px;
     }
-
+ 
     .down-arrow {
         height: 7px;
     }
-
+ 
     .games {
         display: flex;
         gap: 10px;
         margin-left: 0px;
+    }
+ 
+    .off {
+        display: none;
+    }
+ 
+    .contact {
+        gap: 20px;
+        color: #7E6A80;
+        font-size: 8px;
+        margin-top: 30px;
+    }
+
+    .team {
+        display: none;
+    }
+    
+    .caption {
+        display: none;
+    }
+ 
+    .nav {
+        display: none;
+    }
+ 
+    footer {
+        font-size: 8px;
+    }
+
+    .prettypics {
+        height: 200px;
+        width: auto;
+    }
+ 
+    .cutiemood {
+        display: none;
+    }
+ 
+    .bye {
+        height: 250px;
+        width: auto
+    } 
+
+    .gallery-flex {
+        display: block;
+    }
+
+    .gallery-flex p {
+        display: none;
+    }
+ 
+    p.gallery-flex {
+        display: none;
+    }
+ 
+    .scratch {
+        display: none;
+    }
+
+    .flexy {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+    body {
+        padding-top: 70px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .pink-space {
+        font-size: 12px;
+    }
+
+    .gray-space {
+        font-size: 12px;
+    }
+    
+    .intro {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .music {
+        display: none;
+    }
+
+    .title {
+        font-size: 45px;
+    }
+    
+    .title2 {
+        font-size: 45px;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .typed-out {
+        font-size: 35px;
+    }
+
+    .omori {
+        display: contents;
+    }
+
+    .dialogue-box {
+        display: none;
+    }
+
+    .headshot {
+        display: none;
+    }
+
+    .contact-grid {
+        display: none;
+    }
+
+    .cat:hover, .laptop:hover, .headphones:hover, .book:hover, .girl:hover, .play:hover {
+        transform: scale(1);
+        opacity: 1;
+        cursor: default;
+    }
+
+    .cat {
+        height: 120px;
+        grid-column: 4;
+        grid-row: 5;
+    }
+    
+    .laptop {
+        height: 96px;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .headphones {
+        height: 77px;
+        grid-column: 4;
+        grid-row: 1;
+    }
+    
+    .book {
+        height: 96px;
+        grid-column: 4;
+        grid-row: 3;
+    }
+    
+    .girl {
+        height: 120px;
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .room-box {
+        height: 169px;
+        width: 241px;
+        margin-top: 20px;
+    }
+
+    .team {
+        display: none;
+    }
+
+    .caption {
+        display: none;
+    }
+
+    .flexbox {
+        display: flex;
+        flex-direction: column;
+    }
+     .text {
+        flex: 1;
+    }
+   
+    .images {
+        flex: 2;
+    }
+   
+    .gallery {
+        padding-top: 30px;
+        padding-left: 0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 15px;
+    }
+
+    .pic1 {
+        width: 150px;
+        grid-column: 1;
+    }
+
+    .pic2 {
+        width: 150px;
+        grid-column: 2;
+    }
+
+    .pic3 {
+        width: 150px;
+        grid-column: 3;
+    }
+
+    .pic4 {
+        width: 150px;
+        grid-column: 4;
+    }
+
+    .flexy {
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+     .skills {
+        display: none;
+    }
+
+     .skills2 {
+        font-size: 12x;
+    }
+
+     .skill-issue {
+        margin-top: -30px;
+    }
+
+     .pop-ups {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 15px;
+        width: 615px;
+    }
+     .rounded-box {
+        height: 350px;
+    }
+
+    .rounded-box:hover {
+        transform: scale(1);
+        box-shadow: none;
+    }
+     
+    .description1 {
+        font-size: 12px;
+    }
+   
+    .description2 {
+        font-size: 12px;
+    }
+     
+    .topic {
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+
+    .screen2 {
+        display: none;
+    }
+     .screen3 ul {
+        display: none;
+    }
+     .screen3 a img {
+        height: 80px;
+        margin-left: 5px;
+    }
+
+    .description2 .thin {
+        display: none;
+    }
+
+    .outer {
+        height: 178px;
+        width: 360px;
+        background-color: #C1BAD9;
+    }
+
+     .center {
+        height: 17px;
+        width: 360px;
+    }
+
+     .inner {
+        height: 140px;
+        width: 235px;
+        margin-right: 18px;
+        margin-left: 12px;
+    }
+
+     .controls1 {
+        height: 103px;
+        margin-right: -8px;
+    }
+   
+    .controls2 {
+        height: 103px;
+        margin-left: -8px;
+    }
+
+     .holes {
+        height: 103px;
+        margin-right: -4px;
+        margin-left: -10px;
+    }
+
+    .ds-and-games {
+        display: flex;
+    }
+
+    .game {
+        border-radius: 10px;
+        height: 75px;
+        width: 72px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+
+    .game-tag {
+        display: flex;
+        border-radius: 10px;
+        height: 55px;
+        width: 55px;
+        margin-top: 7px;
+        margin-bottom: -5px;
+    }
+
+    .down-arrow {
+        height: 8px;
+    }
+
+    .games {
+        gap: 10px;
+        margin-left: 20px;
     }
 
     .off {
@@ -864,7 +1237,7 @@ footer {
     .contact {
         gap: 20px;
         color: #7E6A80;
-        font-size: 8px;
+        font-size: 10px;
         margin-top: 30px;
     }
 
@@ -873,31 +1246,28 @@ footer {
     }
 
     footer {
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .prettypics {
-        height: auto;
-        width: 150px;
+        height: 375px;
+        width: auto;
     }
 
     .cutiemood {
         display: none;
     }
 
-    .bye {
-        width: 150px;
-    }
-    
-    .gallery-flex {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        justify-content: start;
-        align-items: start;
+     .bye {
+        height: 471px;
+        width: auto;
     }
 
-    .gallery-flex p {
+    .gallery-flex {
+        display: block;
+    }
+
+     .gallery-flex p {
         display: none;
     }
 
@@ -905,306 +1275,7 @@ footer {
         display: none;
     }
 
-    .scratch {
+     .scratch {
         display: none;
     }
-  }
-
-  @media (min-width: 481px) and (max-width: 1200px) {
-    body {
-        padding-top: 0px;
-        padding-left: 70px;
-        padding-right: 70px;
-        padding-bottom: 70px;
-      }
-  
-      p {
-          font-size: 12px;
-      }
-  
-      .pink-space {
-          font-size: 12px;
-      }
-  
-      .gray-space {
-          font-size: 12px;
-      }
-  
-      .intro {
-          display: none;
-      }
-  
-      .music {
-          display: none;
-      }
-  
-      .team {
-          display: none;
-      }
-  
-      .caption {
-          display: none;
-      }
-  
-      .omori {
-        display: none;
-      }
-  
-      .dialogue-box {
-        display: none;
-      }
-      
-      .name {
-        display: none;
-      }
-      
-      .dialogue {
-        display: none;
-      }
-  
-      .contact-grid {
-          display: none;
-      }
-  
-      .room-box {
-          display: none;
-      }
-  
-      .cat {
-          display: none;
-      }
-  
-      .headshot {
-          display: none;
-      }
-  
-      .flexbox {
-          display: flex;
-          flex-direction: column;
-      }
-  
-      .text {
-          flex: 1;
-      }
-      
-      .images {
-          flex: 2;
-      }
-      
-      .gallery {
-          padding-top: 30px;
-          padding-left: 0px;
-          display: grid;
-          grid-template-columns: 1fr 1fr 1fr 1fr;
-          gap: 15px;
-      }
-  
-      .pic1 {
-          width: 150px;
-          grid-column: 1;
-      }
-  
-      .pic2 {
-          width: 150px;
-          grid-column: 2;
-      }
-  
-      .pic3 {
-          width: 150px;
-          grid-column: 3;
-      }
-  
-      .pic4 {
-          width: 150px;
-          grid-column: 4;
-      }
-  
-      .bar {
-          display: none;
-      }
-      
-      .flexy {
-          align-items: center;
-          margin-top: 50px;
-          margin-bottom: 20px;
-      }
-  
-      .skills {
-          display: none;
-      }
-  
-      .skills2 {
-          font-size: 12x;
-      }
-  
-      .skill-issue {
-          margin-top: -30px;
-      }
-  
-      .pop-ups {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          grid-template-rows: 1fr 1fr;
-          gap: 15px;
-          width: 615px;
-      }
-  
-      .rounded-box {
-          height: 300px;
-      }
-
-      .rounded-box:hover {
-        transform: scale(1);
-        box-shadow: none;
-    }
-  
-      .description1 {
-          font-size: 12px;
-      }
-      
-      .description2 {
-          font-size: 12px;
-      }
-  
-      .topic {
-          font-weight: 500;
-          font-size: 24px;
-          margin-bottom: 8px;
-          text-align: center;
-      }
-  
-      .thin {
-          display: none;
-      }
-  
-      .screen2 {
-          display: none;
-      }
-  
-      .screen3 ul {
-          display: none;
-      }
-  
-      .screen3 a img {
-          height: 80px;
-          margin-left: 5px;
-      }
-      
-      .outer {
-          height: 178px;
-          width: 360px;
-          background-color: #C1BAD9;
-      }
-  
-      .center {
-          height: 17px;
-          width: 360px;
-      }
-  
-      .inner {
-          height: 140px;
-          width: 235px;
-          margin-right: 18px;
-          margin-left: 12px;
-      }
-  
-      .controls1 {
-          height: 103px;
-          margin-right: -8px;
-      }
-      
-      .controls2 {
-          height: 103px;
-          margin-left: -8px;
-      }
-  
-      .holes {
-          height: 103px;
-          margin-right: -4px;
-          margin-left: -10px;
-      }
-  
-      .ds-and-games {
-          display: flex;
-      }
-  
-      .game {
-          border-radius: 10px;
-          height: 75px;
-          width: 72px;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-around;
-          margin-bottom: 20px;
-      }
-  
-      .game-tag {
-          display: flex;
-          border-radius: 10px;
-          height: 55px;
-          width: 55px;
-          margin-top: 7px;
-          margin-bottom: -5px;
-      }
-  
-      .down-arrow {
-          height: 8px;
-      }
-  
-      .games {
-          gap: 10px;
-          margin-left: 20px;
-      }
-  
-      .off {
-          display: none;
-      }
-  
-      .contact {
-          gap: 20px;
-          color: #7E6A80;
-          font-size: 10px;
-          margin-top: 30px;
-      }
-  
-      .nav {
-          display: none;
-      }
-  
-      footer {
-          font-size: 10px;
-      }
-  
-      .prettypics {
-          height: auto;
-          width: 250px;
-      }
-  
-      .cutiemood {
-          display: none;
-      }
-  
-      .bye {
-          width: 250px;
-      }
-      
-      .gallery-flex {
-          display: flex;
-          flex-direction: column;
-          gap: 10px;
-          justify-content: start;
-          align-items: start;
-      }
-  
-      .gallery-flex p {
-          display: none;
-      }
-  
-      p.gallery-flex {
-          display: none;
-      }
-  
-      .scratch {
-          display: none;
-      }
-    }
+ }
