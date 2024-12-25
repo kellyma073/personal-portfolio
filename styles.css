@@ -11,7 +11,7 @@
 
 @keyframes blinking2 {
     0% { border-color: transparent }
-    50% { border-color: #686264 }
+    50% { border-color: #7E6A80 }
     100% { border-color: transparent }
 }
 
@@ -20,7 +20,7 @@ html {
 }
 
 body {
-    background-image: radial-gradient(circle, rgba(255,223,229,1) 0%, rgba(255,245,232,1) 100%);
+    background-image: radial-gradient(circle, rgb(255, 233, 243) 0%, rgba(250,240,250,1) 100%);
     padding-top: 125px;
     padding-left: 225px;
     padding-right: 225px;
@@ -28,9 +28,9 @@ body {
 }
 
 p {
-    color: #686264;
+    color: #7E6A80;
     font-size: 14px;
-    font-family: "Roboto", system-ui;
+    font-family: "Noto Sans", system-ui;
     font-weight: normal;
     display: inline;
 }
@@ -42,7 +42,7 @@ p {
 }
 
 .gray-space {
-    color: #686264;
+    color: #7E6A80;
     font-weight: bold;
     font-size: 14px;
 }
@@ -150,18 +150,18 @@ p {
 .name {
     color: #FD6492;
     font-size: 18px;
-    font-family: "Pixelify Sans", sans-serif;
-    font-weight: 400;
+    font-family: "Georgia", serif;
+    font-weight: bold;
     padding-top: 5px;
     padding-left: 170px;
     padding-bottom: 5px;
 }
 
 .dialogue {
-    font-size: 16px;
-    font-family: "Pixelify Sans", sans-serif;
+    font-size: 14px;
+    font-family: "Noto Sans", system-ui;
     padding-left: 170px;
-    color: #686264;
+    color: #7E6A80;
     font-weight: 400;
     padding-right: 30px;
 }
@@ -234,7 +234,7 @@ p {
     grid-column: 2;
     grid-row: 1;
     color:#FEEEF1;
-    font-family: "Pixelify Sans", monospace;
+    font-family: "Georgia", serif-sans;
     font-size: 20px;
     font-weight: 400;
 }
@@ -261,8 +261,9 @@ p {
 
 .heading {
     color: #FD6492;
-    font-family: "Roboto", system-ui;
+    font-family: "Georgia", serif;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .flexbox {
@@ -289,16 +290,16 @@ p {
 .title {
     color: #FD6492;
     font-size: 50px;
-    font-family: "Pixelify Sans", sans-serif;
-    font-weight: 100;
+    font-family: cursive;
+    font-weight: bold;
     grid-column: 1;
 }
 
 .title2 {
-    color: #686264;
+    color: #7E6A80;
     font-size: 50px;
-    font-family: "Roboto", system-ui;
-    font-weight: 100;
+    font-family: "Noto Sans", system-ui;
+    font-weight: 200;
     grid-column: 1;
 }
 
@@ -309,7 +310,7 @@ p {
 }
 
 .bar2 {
-    background-color: #7e676e;
+    background-color: #7E6A80;
     height: 1px;
 }
 
@@ -338,7 +339,7 @@ p {
 .skills2 {
     color: #FD6492;
     font-size: 14px;
-    font-family: "Roboto", system-ui;
+    font-family: "Noto Sans", system-ui;
     font-weight: bold;
     display: inline;
 }
@@ -388,7 +389,7 @@ p {
 }
 
 .gray {
-    background-color:#686264;
+    background-color:#7E6A80;
 }
 
 .www {
@@ -401,25 +402,26 @@ p {
 
 .description1 {
     margin: 20px;
-    color: #686264;
+    color: #7E6A80;
     font-size: 14px;
-    font-family: "Roboto", system-ui;
+    font-family: "Noto Sans", system-ui;
     font-weight: normal;
 }
 
 .description2 {
     margin: 25px;
-    color: #686264;
+    color: #7E6A80;
     font-size: 14px;
-    font-family: "Roboto", system-ui;
+    font-family: "Noto Sans", system-ui;
     font-weight: normal;
 }
 
 .topic {
-    font-weight: 500;
-    font-size: 25px;
+    font-weight: bold;
+    font-size: 24px;
     color:#FD6492;
     margin-bottom: 8px;
+    font-family: "Georgia", serif;
 }
 
 ul {
@@ -436,7 +438,7 @@ ul {
     border-radius: 20px;
     height: 300px;
     width: 609px;
-    background-color: #FFB7CB;
+    background-color: #C1BAD9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -481,7 +483,7 @@ ul {
     border-radius: 10px 10px 10px 30px;
     height: 128px;
     width: 121px;
-    background-color: #686264;
+    background-color: #696969;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -523,9 +525,9 @@ ul {
 .contact {
     display: flex;
     gap: 20px;
-    color: #686264;
+    color: #7E6A80;
     font-size: 12px;
-    font-family: "Roboto", system-ui;
+    font-family: "Noto Sans", system-ui;
     font-weight: normal;
     margin-top: 150px;
     margin-bottom: 10px;
@@ -536,7 +538,7 @@ ul {
     gap: 20px;
     color: black;
     font-size: 12px;
-    font-family: "Roboto", system-ui;
+    font-family: "Noto Sans", system-ui;
     font-weight: normal;
     position: fixed;
     z-index: 1000;
@@ -555,13 +557,13 @@ a:hover {
 
 a {
     text-decoration: none;
-    color: #686264;
+    color: #7E6A80;
 }
 
 footer {
-    color: black;
+    color: #7E6A80;
     font-size: 12px;
-    font-family: "Roboto", system-ui;
+    font-family: "Noto Sans", system-ui;
     font-weight: normal;
     display: inline;
 }
@@ -605,7 +607,7 @@ footer {
 
   @media (min-width: 319px) and (max-width: 480px) {
     body {
-      padding-top: 40px;
+      padding-top: 0px;
       padding-left: 30px;
       padding-right: 30px;
       padding-bottom: 30px;
@@ -640,29 +642,19 @@ footer {
     }
 
     .omori {
-        border: transparent;
-        margin-top: 0px;
-        margin-bottom: 70px;
-        height: 0px;
-        width: 0px;
+        display: none;
     }
 
     .dialogue-box {
-        height: 103.5px;
-        width: 300px;
-        border-top: transparent;;
-        background-color: transparent;
+        display: none;
     }
     
     .name {
-        padding-top: 0px;
-        padding-left: 0px;
-        padding-bottom: 5px;
+        display: none;
     }
     
     .dialogue {
-        padding-left: 0px;
-        padding-right: 0px;
+        display: none;
     }
 
     .contact-grid {
@@ -760,6 +752,11 @@ footer {
         height: 240px;
     }
 
+    .rounded-box:hover {
+        transform: scale(1);
+        box-shadow: none;
+    }
+
     .description1 {
         font-size: 10px;
     }
@@ -795,6 +792,7 @@ footer {
     .outer {
         height: 148px;
         width: 300px;
+        background-color: #C1BAD9;
     }
 
     .center {
@@ -865,7 +863,7 @@ footer {
 
     .contact {
         gap: 20px;
-        color: #686264;
+        color: #7E6A80;
         font-size: 8px;
         margin-top: 30px;
     }
@@ -880,7 +878,7 @@ footer {
 
     .prettypics {
         height: auto;
-        width: 90%;
+        width: 150px;
     }
 
     .cutiemood {
@@ -888,7 +886,7 @@ footer {
     }
 
     .bye {
-        width: 90%;
+        width: 150px;
     }
     
     .gallery-flex {
@@ -914,7 +912,7 @@ footer {
 
   @media (min-width: 481px) and (max-width: 1200px) {
     body {
-        padding-top: 80px;
+        padding-top: 0px;
         padding-left: 70px;
         padding-right: 70px;
         padding-bottom: 70px;
@@ -949,29 +947,19 @@ footer {
       }
   
       .omori {
-          border: transparent;
-          margin-top: 0px;
-          margin-bottom: 70px;
-          height: 0px;
-          width: 0px;
+        display: none;
       }
   
       .dialogue-box {
-          height: 103.5px;
-          width: 400px;
-          border-top: transparent;;
-          background-color: transparent;
+        display: none;
       }
       
       .name {
-          padding-top: 0px;
-          padding-left: 0px;
-          padding-bottom: 5px;
+        display: none;
       }
       
       .dialogue {
-          padding-left: 0px;
-          padding-right: 0px;
+        display: none;
       }
   
       .contact-grid {
@@ -1064,6 +1052,11 @@ footer {
       .rounded-box {
           height: 300px;
       }
+
+      .rounded-box:hover {
+        transform: scale(1);
+        box-shadow: none;
+    }
   
       .description1 {
           font-size: 12px;
@@ -1100,6 +1093,7 @@ footer {
       .outer {
           height: 178px;
           width: 360px;
+          background-color: #C1BAD9;
       }
   
       .center {
@@ -1168,7 +1162,7 @@ footer {
   
       .contact {
           gap: 20px;
-          color: #686264;
+          color: #7E6A80;
           font-size: 10px;
           margin-top: 30px;
       }
@@ -1183,7 +1177,7 @@ footer {
   
       .prettypics {
           height: auto;
-          width: 70%;
+          width: 250px;
       }
   
       .cutiemood {
@@ -1191,7 +1185,7 @@ footer {
       }
   
       .bye {
-          width: 70%;
+          width: 250px;
       }
       
       .gallery-flex {

@@ -3,15 +3,20 @@ $(".girl").click(function() {
 });
 
 $(".headphones").click(function() {
-    $(".dialogue").html("“My beloved headphones!! I love music. I’ve played the clarinet and guitar. Currently, my favorite song is <a target='_blank' href='https://www.youtube.com/watch?v=T6QKqFPRZSA'>‘Doo Wop (That Thing)’</a> by Ms. Lauryn Hill.”")
+    $(".dialogue").html(`"My beloved headphones!! I love music. I’ve played the clarinet and guitar! My on-repeat artists are 
+    <a target="_blank" href="https://www.youtube.com/watch?v=8sgycukafqQ&ab_channel=LinkinPark">Linkin Park</a>, 
+    <a target="_blank" href="https://www.youtube.com/watch?v=gGdGFtwCNBE&list=PLKTZHUmUvnmIDAk4eJqGF6vJ3krJvLojU&index=2&ab_channel=TheKillersVEVO">The Killers</a>, 
+    <a target="_blank" href="https://www.youtube.com/watch?v=nnvqfucTs0o&ab_channel=KidCudi-Topic">Kid Cudi</a>, 
+    <a target="_blank" href="https://www.youtube.com/watch?v=F6VfsJ7LAlE&ab_channel=LIVELOVEASAPVEVO">A$AP Rocky</a>, and 
+    <a target="_blank" href="https://www.youtube.com/watch?v=Gl83mI69nX4&ab_channel=AtlanticRecords">Lupe Fiasco</a>."`);
 });
 
 $(".laptop").click(function() {
-    $(".dialogue").text("“I use my MacBook for coding projects, watching anime/k-dramas/movies, and playing RPGs.”")
+    $(".dialogue").text("“I use my MacBook for coding projects, binge-watching anime/K-dramas/movies, and playing RPGs.”")
 });
 
 $(".cat").click(function() {
-    $(".dialogue").text("“My aunt and I found a stray kitten in Monterey Park and took him in. His name is Monty. He’s a really affectionate lil guy.”")
+    $(".dialogue").text("“My aunt and I found a stray kitten in El Monte and took him in. His name is Monty. He’s a really affectionate lil guy, but he also scratched me a lot.”")
 });
 
 $(".book").click(function() {
@@ -19,28 +24,34 @@ $(".book").click(function() {
 });
 
 $(".winc").click(function() {
-    $(".screen1").html('<div class="topic">Women in Computing Website</div><div class="thin">React.js, Next.js, Tailwind CSS, GitHub</div><div class="thin">October 2023 - December 2023</div>');
+    $(".screen1").html('<div class="topic">Women in Computing</div><div class="thin">React.js, Next.js, Tailwind CSS, GitHub</div><div class="thin">October 2023 - December 2023</div>');
     $(".screen2").html('<li>Collaborated with team of 8 developers to construct static site generation Next.js website for displaying club information</li><li><p class="gray-space">Eliminated codebase redundancy by 250 lines</p> by developing map data structure and mapping algorithm that converts club event metadata into a React component</li>');
-    $(".screen3").html('<ul><li>Created <p class="gray-space">reusable components</p>, such as modal and picture frame, to streamline display of event details and images</li><li>Attended weekly scrum meetings to assign action items and address issues such as <p class="gray-space">responsiveness</p> on mobile devices</li></ul><a target="_blank" href="https://winc.cs.ucr.edu/"><img class="www" src="misc/www.png"/></a><a target="_blank" href="https://github.com/acm-ucr/winc-website"><img class="www" src="contact/gitcat.png"/></a>');
+    $(".screen3").html('<ul><li>Created <p class="gray-space">reusable components</p>, such as modal and picture frame, to streamline display of event details and images</li><li>Enhanced website functionality by resolving <p class="gray-space">mobile responsiveness</p> issues and implementing prioritized features, attending weekly scrum meetings and using <p class="gray-space">AGILE</p> methodologies for efficient task tracking</li></ul><a target="_blank" href="https://winc.cs.ucr.edu/"><img class="www" src="misc/www.png"/></a><a target="_blank" href="https://github.com/acm-ucr/winc-website"><img class="www" src="contact/gitcat.png"/></a>');
 });
 
 $(".hsp").click(function() {
     $(".screen1").html('<div class="topic">Highlander Space Program</div><div class="thin">React.js, Next.js, Tailwind CSS, GitHub</div><div class="thin">January 2024 - March 2024</div>');
-    $(".screen2").html('<li>Coordinated with team of 9 developers to construct static site generation Next.js website for presenting club information</li><li>Integrated component to showcase contact information and social media links in the footer of all webpages</li>');
-    $(".screen3").html('<ul><li>Mapped text and images on pages describing the club’s various projects and initiatives</li></ul><a target="_blank" href="https://hsp.ucrhighlanders.org/"><img class="www" src="misc/www.png"/></a><a target="_blank" href="https://github.com/acm-ucr/hsp-website"><img class="www" src="contact/gitcat.png"/></a>');
+    $(".screen2").html('<li>Coordinated with team of 9 developers to construct static site generation Next.js website for presenting club information</li><li>Integrated React component to showcase contact information and social media links in the footer of all webpages</li>');
+    $(".screen3").html('<ul><li>Mapped text and images on pages describing the club’s various projects and initiatives</li><li>Enhanced website functionality by resolving <p class="gray-space">mobile responsiveness</p> issues and implementing prioritized features, attending weekly scrum meetings and using <p class="gray-space">AGILE</p> methodologies for efficient task tracking</li></ul><a target="_blank" href="https://hsp.ucrhighlanders.org/"><img class="www" src="misc/www.png"/></a><a target="_blank" href="https://github.com/acm-ucr/hsp-website"><img class="www" src="contact/gitcat.png"/></a>');
 });
 
 $(".qwer").click(function() {
     $(".screen1").html('<div class="topic">Daily Dose</div><div class="thin">React.js, Next.js, Tailwind CSS, GitHub</div><div class="thin">February 2024</div>');
-    $(".screen2").html('<li>Developed web app alongside 3 teammates that enables users to send time capsules to themselves in the future</li><li>Won <p class="gray-space">Best Beginner</p> and <p class="gray-space">Best Use of MongoDB</p> for Major League Hacking’s QWERHacks @ UCLA</li><li>My first hackathon :)</li>');
-    $(".screen3").html('<img class="team" src="misc/qwerteam.jpeg"/><div class="caption">I couldn’t make it to the closing ceremony, so I’m not in this picture… but look at how adorable my team is!!!!</div><a target="_blank" href="https://devpost.com/software/daily-dose-7ks69p"><img class="www" src="misc/devpost.jpg"/></a><a target="_blank" href="https://github.com/NotALobster/daily-dose"><img class="www" src="contact/gitcat.png"/></a>');
+    $(".screen2").html('<li>Developed the frontend for a web app alongside 3 teammates that enables users to send time capsules to themselves in the future</li><li>Won <p class="gray-space">Best Beginner</p> and <p class="gray-space">Best Use of MongoDB</p> for Major League Hacking’s QWERHacks @ UCLA</li><li>My first hackathon :)</li>');
+    $(".screen3").html('<img class="team" src="misc/qwerteam.jpeg"/><div class="caption">I couldn’t make it to the closing ceremony, so I’m not in this picture… but look at how adorable my team is!</div><a target="_blank" href="https://devpost.com/software/daily-dose-7ks69p"><img class="www" src="misc/devpost.jpg"/></a><a target="_blank" href="https://github.com/NotALobster/daily-dose"><img class="www" src="contact/gitcat.png"/></a>');
 });
 
 $(".bear").click(function() {
     $(".screen1").html('<div class="topic">BearCare</div><div class="thin">React.js, Next.js, Tailwind CSS, GitHub</div><div class="thin">April 2024</div>');
-    $(".screen2").html('<li>Developed a web app alongside 3 teammates aimed at simplifying the process of locating local hospitals covered by specific insurance providers during emergencies</li><li>Created for BearHack @ UCR</li>');
+    $(".screen2").html('<li>Implemented the frontend for a web app that simplifies locating local hospitals covered by specific insurance providers during emergencies, improving user access to emergency healthcare</li><li>Created insurance plan selection buttons to streamline filtering, completing the project in 24 hours with 3 teammates for BearHack @ UCR</li>');
     $(".screen3").html('<img class="team" src="misc/bearteam.jpeg"/><div class="caption">Me, my team, and our project at judging !!</div><a target="_blank" href="https://devpost.com/software/bearcare-18lzch"><img class="www" src="misc/devpost.jpg"/></a><a target="_blank" href="https://github.com/aditithanekar/bearhack"><img class="www" src="contact/gitcat.png"/></a>');
 });
+
+$(".rpg").click(function() {
+    $(".screen1").html('<div class="topic">I Woke Up in a Cave & <br/> All I Want is WiFi</div><div class="thin">C++, GoogleTest, GitHub, Valgrind, GDB, Gcov, Lcov</div><div class="thin">October 2024 - December 2024</div>');
+    $(".screen2").html('<li>Developed a terminal-based fantasy strategy game in a team of 5, implementing core mechanics and design features in C++</li><li>Built a dynamic <p class="gray-space">Inventory</p> system with vector-based storage to streamline item management</li>');
+    $(".screen3").html('<ul><li>Designed and integrated <p class="gray-space">Item</p>, <p class="gray-space">Potion</p>, and <p class="gray-space">Weapon</p> classes, managing item usage and stat modifications to optimize gameplay dynamics</li><li>Validated functionality thru unit testing with <p class="gray-space">GoogleTest</p> and CI pipelines using <p class="gray-space">GitHub Actions</p>, while debugging and profiling with <p class="gray-space">Valgrind</p>, <p class="gray-space">GDB</p>, <p class="gray-space">Gcov</p>, and <p class="gray-space">Lcov</p> to ensure optimal performance</li></ul><a target="_blank" href="https://github.com/kellyma073/rpg-cave-game"><img class="www" src="contact/gitcat.png"/></a>');
+ });
 
 var song = new Audio("music/sakuragirl.mp3");
 var isPlaying = false;
