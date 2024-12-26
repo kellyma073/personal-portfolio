@@ -89,7 +89,7 @@ p {
     border: solid #FD6492;
     height: 175px;
     width: 250px;
-    grid-column: 6;
+    grid-column: 5;
     grid-row: 2;
 }
 
@@ -110,7 +110,7 @@ p {
 
 .cat {
     height: 125px;
-    grid-column: 4;
+    grid-column: 3;
     grid-row: 5;
 }
 
@@ -153,14 +153,14 @@ p {
     font-family: "Georgia", serif;
     font-weight: bold;
     padding-top: 5px;
-    padding-left: 170px;
+    padding-left: 125px;
     padding-bottom: 5px;
 }
 
 .dialogue {
     font-size: 14px;
     font-family: "Noto Sans", system-ui;
-    padding-left: 170px;
+    padding-left: 125px;
     color: #7E6A80;
     font-weight: 400;
     padding-right: 30px;
@@ -168,9 +168,9 @@ p {
 
 .headshot {
     position: absolute;
-    top: 102px;
-    left: -40.5px;
-    height: 250px;
+    top: 172px;
+    left: -29px;
+    height: 180px;
 }
 
 .hero{
